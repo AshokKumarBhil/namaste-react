@@ -8,7 +8,9 @@
   <body>
     <!-- Hello World using HTML -->
     <h1>Hello World From Only HTML !</h1>
+    <div id="js"></div>
     <div id="root"></div>
+
     <script
       crossorigin
       src="https://unpkg.com/react@18/umd/react.development.js"
@@ -17,13 +19,13 @@
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
-    <!-- hello world from javascript -->
-    <script src="/script.js"></script>
-    <script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
       //   hello world from REACT
       const root = ReactDOM.createRoot(document.getElementById("root"));
       const h3 = React.createElement("h3", {}, "Hello World from React !");
-      root.render(h3);
+
       // Nesting of element using React
       const parent = React.createElement("div", { id: "parent" }, [
         React.createElement("div", { id: "child1" }, [
@@ -35,7 +37,28 @@
           React.createElement("h2", {}, "h2 from child 2"),
         ]),
       ]);
-      root.render(parent);
+
+      //Plain JS
+      const js = document.getElementById("js");
+      const greet = document.createElement("h1");
+      greet.textContent = "Hello from Plain js";
+      js.appendChild(greet);
+
+      // hello World from plain js
+      const helloWorld = document.createElement("h2");
+      helloWorld.textContent = "Hello World from Plain JS";
+      document.body.appendChild(helloWorld);
+
+      function Counter() {
+        const [count, setCount] = React.useState(0);
+        return (
+          <div>
+            <p>You clicked count {count} times</p>
+            <button onClick={() => setCount(count + 1)}>Increase Count</button>
+          </div>
+        );
+      }
+      root.render(<Counter />);
     </script>
   </body>
 </html>

@@ -1,4 +1,8 @@
-const helloWorld = document.createElement('h2');
-helloWorld.textContent = "Hello World from Plain JS";
+let count = 0;
+const btn = document.getElementById("btn");
+const countDisplay = document.getElementById("count");
 
-document.body.appendChild(helloWorld);
+btn.addEventListener("click", function () {
+  count++;
+  countDisplay.textContent = `You clicked ${count} times`;
+});
