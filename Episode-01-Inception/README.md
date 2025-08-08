@@ -1,4 +1,4 @@
-# episode1-inception-notes
+# Episode1-inception-notes
 
 ## Table of Contents
 1. [Emmet](#emmet)
