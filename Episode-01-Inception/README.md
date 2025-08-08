@@ -1,4 +1,4 @@
-#namaste-react-episode1
+# namaste-react-episode1
 Emmet:-
 
 -Emmet is great add on tool built in vscode. It help us to write boilor -plate code , helps in code completion.
