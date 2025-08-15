@@ -1,0 +1,17 @@
+{
+  "name": "episode-02-igniting-our-app",
+  "version": "1.0.0",
+  "description": "namaste-react episode 2",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest",
+    "build":"parcel build"
+  },
+  "author": "Ashok Kumar Bhil",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.15.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
