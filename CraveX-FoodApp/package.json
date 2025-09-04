@@ -1,0 +1,21 @@
+{
+  "name": "cravex-foodapp",
+  "version": "1.0.0",
+  "description": "A simple food ordering App.",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ashok kumar bhil",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.15.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
+  }
+}
