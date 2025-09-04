@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+    
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.hero{
+    
+    
+}
+.card{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.card-container{
+    display: flex;
+    /* max-width: 450px;
+    margin: auto; */
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 10px;
+}
+#search-item{
+    padding: 5px;
+    width: 40%;
+    
+}
+#search-btn{
+    padding: 5px;
+    margin-left: 5px;
+}

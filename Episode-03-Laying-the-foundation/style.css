@@ -1,0 +1,23 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+#greet{
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-top: 0;
+    color: chocolate;
+}
+#input{
+
+}
+#logo{
+
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    height: 40px;
+}
